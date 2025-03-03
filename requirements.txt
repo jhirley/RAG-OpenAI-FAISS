@@ -1,0 +1,32 @@
+# Environment management
+python-dotenv==1.0.1
+
+# Web framework
+streamlit==1.40.2
+
+# Regular expressions
+regex==2024.11.6
+
+# HTTP requests
+requests==2.32.3
+requests-toolbelt==1.0.0
+
+# HTML parsing
+beautifulsoup4==4.12.3
+
+# Data visualization
+altair==5.5.0
+
+# LangChain packages
+langchain==0.3.14
+langchain_community==0.3.14
+langchain-openai==0.2.10
+langchain-text-splitters==0.3.5
+langchain-core==0.3.30
+langchain-nomic==0.1.4
+
+# Tavily API
+tavily-python==0.5.0
+
+# FAISS for vector search
+faiss-cpu==1.9.0.post1

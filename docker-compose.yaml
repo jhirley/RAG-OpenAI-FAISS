@@ -1,0 +1,19 @@
+services:
+  streamlit_app:
+    build: .
+    expose:
+      - "8501"
+    ports:
+      - "8501:8501"
+    # extra_hosts:
+    #   - "host.docker.internal:host-gateway"
+    volumes:
+      - .:/app  # Mount local directory to /app inside the container, optional
+#    networks:
+#      dnet:
+
+#networks:  
+#  dnet:  
+#    driver: bridge  
+    # redis:
+      # image: "redis:alpine"
